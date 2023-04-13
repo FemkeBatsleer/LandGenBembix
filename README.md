@@ -63,7 +63,7 @@ Data:
 Scripts to assemble summary tables from the optimizations and bootstrap-results. To be able to run these, the optimizations should be run first. The model averaging and plots can be run with the data provided (which would be created with the summary-scripts).
 
 Scripts:
--	Summary_[westcoast/areasdunes]_SS_[MC/SC].R: four scripts to compile/summarize results from the optimizations.
+-	Summary_[westcoast/areasdunes]\_SS\_[MC/SC].R: four scripts to compile/summarize results from the optimizations.
 -	Bootstrap_summary: script to compile results from the optimizations (previous script has to be run first) and the bootstrap analyses.
 -	Model_averaging_and_plots.R: script to perform model averaging and make plots of relative resistance values. This script can be run independently with the data provided.
 - combinedfig_relative_resistancevalues.R: script to make relative resistance value boxplot graphs from main manuscript, where run 1 and run 2 are combined. Previous script makes needed summaries, but script can also be run independently with the data provided.
